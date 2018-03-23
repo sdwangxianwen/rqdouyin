@@ -17,6 +17,8 @@
 		1E06D7CB206527FC00CA8E1F /* rqdouyinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06D7CA206527FC00CA8E1F /* rqdouyinUITests.m */; };
 		1E06D7DC206529C000CA8E1F /* RQPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06D7DB206529C000CA8E1F /* RQPlayerView.m */; };
 		1E06D7DF20652A3D00CA8E1F /* RQVideoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06D7DE20652A3D00CA8E1F /* RQVideoSlider.m */; };
+		1E06D7E22065340100CA8E1F /* RQPlayerProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06D7E12065340000CA8E1F /* RQPlayerProtocol.m */; };
+		1E06D7E52065344200CA8E1F /* RQPlayerAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06D7E42065344200CA8E1F /* RQPlayerAttribute.m */; };
 		BEB6017B6B6DBE2FDCF8AD85 /* libPods-rqdouyin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A013750D4CAF57BCFE7A02 /* libPods-rqdouyin.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,10 @@
 		1E06D7DB206529C000CA8E1F /* RQPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQPlayerView.m; sourceTree = "<group>"; };
 		1E06D7DD20652A3D00CA8E1F /* RQVideoSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQVideoSlider.h; sourceTree = "<group>"; };
 		1E06D7DE20652A3D00CA8E1F /* RQVideoSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQVideoSlider.m; sourceTree = "<group>"; };
+		1E06D7E02065340000CA8E1F /* RQPlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQPlayerProtocol.h; sourceTree = "<group>"; };
+		1E06D7E12065340000CA8E1F /* RQPlayerProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQPlayerProtocol.m; sourceTree = "<group>"; };
+		1E06D7E32065344200CA8E1F /* RQPlayerAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQPlayerAttribute.h; sourceTree = "<group>"; };
+		1E06D7E42065344200CA8E1F /* RQPlayerAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQPlayerAttribute.m; sourceTree = "<group>"; };
 		60A013750D4CAF57BCFE7A02 /* libPods-rqdouyin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rqdouyin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8032FE63DC9615B7E8023250 /* Pods-rqdouyin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rqdouyin.release.xcconfig"; path = "Pods/Target Support Files/Pods-rqdouyin/Pods-rqdouyin.release.xcconfig"; sourceTree = "<group>"; };
 		BDC38F5C8700123FA0DF934A /* Pods-rqdouyin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rqdouyin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rqdouyin/Pods-rqdouyin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +161,10 @@
 				1E06D7DB206529C000CA8E1F /* RQPlayerView.m */,
 				1E06D7DD20652A3D00CA8E1F /* RQVideoSlider.h */,
 				1E06D7DE20652A3D00CA8E1F /* RQVideoSlider.m */,
+				1E06D7E02065340000CA8E1F /* RQPlayerProtocol.h */,
+				1E06D7E12065340000CA8E1F /* RQPlayerProtocol.m */,
+				1E06D7E32065344200CA8E1F /* RQPlayerAttribute.h */,
+				1E06D7E42065344200CA8E1F /* RQPlayerAttribute.m */,
 			);
 			path = customPlayer;
 			sourceTree = "<group>";
@@ -372,8 +382,10 @@
 				1E06D7DC206529C000CA8E1F /* RQPlayerView.m in Sources */,
 				1E06D7AB206527FC00CA8E1F /* ViewController.m in Sources */,
 				1E06D7DF20652A3D00CA8E1F /* RQVideoSlider.m in Sources */,
+				1E06D7E22065340100CA8E1F /* RQPlayerProtocol.m in Sources */,
 				1E06D7B6206527FC00CA8E1F /* main.m in Sources */,
 				1E06D7A8206527FC00CA8E1F /* AppDelegate.m in Sources */,
+				1E06D7E52065344200CA8E1F /* RQPlayerAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
