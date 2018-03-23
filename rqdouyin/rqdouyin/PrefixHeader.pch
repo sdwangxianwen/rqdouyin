@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  rqdouyin
+//
+//  Created by 王文文 on 2018/3/23.
+//  Copyright © 2018年 wangwen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define RQSCREENW [UIScreen mainScreen].bounds.size.width
+#define RQSCREENH [UIScreen mainScreen].bounds.size.height
+
+#import <Masonry.h>
+#import <SVProgressHUD.h>
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
+
+#endif /* PrefixHeader_pch */
